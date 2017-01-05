@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["David Wood <devel@dtwood.uk>"]
 
 [dependencies]
-nrf51-lang = { path = "../nrf51-lang" }
-nrf51-hardware = { path = "../nrf51-hardware" }
+nrf51-hardware = { git = "https://github.com/dtwood/nrf51-hardware" }
+nrf51-lang = { git = "https://github.com/dtwood/nrf51-lang" }
