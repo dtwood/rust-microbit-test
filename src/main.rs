@@ -2,7 +2,7 @@
 #![feature(link_args)]
 
 #[link_args = "-Wl,--gc-sections -Wl,--sort-section=alignment -mcpu=cortex-m0 -mthumb -T NRF51822.ld startup_NRF51822.S"]
-extern { }
+extern "C" {}
 
 #[macro_use]
 extern crate nrf51_lang;
