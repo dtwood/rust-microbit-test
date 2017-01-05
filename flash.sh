@@ -1,8 +1,5 @@
 #!/bin/sh
 
-MBED_CMSIS=lancaster-university/mbed-classic/targets/cmsis
-MICROBIT_TARGET=lancaster-university/microbit-targets/bbc-microbit-classic-gcc
-
 set -e
 cd $(dirname $0)
 xargo build --target=cortex-m0 --release
