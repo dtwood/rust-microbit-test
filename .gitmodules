@@ -1,0 +1,8 @@
+[submodule "vendor/mbed-hal-nrf51822-mcu"]
+	path = vendor/mbed-hal-nrf51822-mcu
+	url = https://github.com/ARMmbed/mbed-hal-nrf51822-mcu
+	shallow = true
+[submodule "vendor/target-nordic-nrf51822"]
+	path = vendor/target-nordic-nrf51822
+	url = https://github.com/ARMmbed/target-nordic-nrf51822
+	shallow = true

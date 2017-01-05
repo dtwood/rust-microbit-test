@@ -1,7 +1,9 @@
 #![no_std]
 #![feature(link_args)]
 
-#[link_args = "-Wl,--gc-sections -Wl,--sort-section=alignment -mcpu=cortex-m0 -mthumb -T NRF51822.ld startup_NRF51822.S"]
+#[link_args = "-Wl,--gc-sections -Wl,--sort-section=alignment -mcpu=cortex-m0 -mthumb"]
+#[link_args = "-T vendor/target-nordic-nrf51822/nordic-nrf51822-gcc/ld/NRF51822_16K_S110.ld"]
+#[link_args = "vendor/mbed-hal-nrf51822-mcu/bootstrap_gcc/startup_nRF51822.S"]
 extern "C" {}
 
 #[macro_use]
