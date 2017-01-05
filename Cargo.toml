@@ -1,0 +1,8 @@
+[package]
+name = "microbit-demo"
+version = "0.1.0"
+authors = ["David Wood <devel@dtwood.uk>"]
+
+[dependencies]
+nrf51-lang = { path = "../nrf51-lang" }
+nrf51-hardware = { path = "../nrf51-hardware" }

@@ -1,0 +1,2 @@
+[target.cortex-m0]
+linker = "/usr/local/bin/arm-none-eabi-g++"
